@@ -1,0 +1,112 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+}
+#logodnc{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#titulomenusuperior{
+    margin-left: 175px;
+    margin-top: 50px;
+}
+#textomenusuperior{
+    margin-left: 175px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+#menusuperior{
+    background-image: url(/imagens/imagemfundosuperior.svg);
+    color: aliceblue;
+}
+#menuinformacional{
+    background-color: #EAECE5;
+    display: flex;
+    columns: auto;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.figuras{
+    margin: 75px 15px 75px 175px;
+}
+#menuvideo{
+    display: flex;
+    grid-auto-flow: column;
+    margin: 75px 0px 75px 175px;
+}
+#titulovideo{
+    margin-left: 60px;
+    margin-top: 35px;
+    color: #247BA0;
+}
+#textovideo{
+    margin-left: 60px;
+    margin-top: 25px;
+}
+#menucarrossel{
+    background-color: #247BA0;
+}
+#titulocarrossel{
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+#Samantha{
+    display: none;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-inline: 350px;
+    padding: 50px;
+}
+.seta{
+    margin-top: 55px;
+}
+#setaesquerda{
+    display: none;
+}
+.seta{
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#menuformulario{
+    background-color: #EAECE5;
+}
+#tituloformulario{
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+input{
+    display: flex;
+    grid-auto-flow: column;
+    margin-left: 900px;
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+}
+button{
+    margin-left: 950px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    background-color: greenyellow;
+    color: white;
+}
+
+
